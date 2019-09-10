@@ -10,47 +10,48 @@ body {
 div {
     border: 2px solid #c9c9b6;
     padding: 1rem;
-    width: 75%;
-    margin: 20rem auto;
+    width: 85%;
+    margin: 5rem auto;
 }
 
 div h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #c9c9b6;
 }
 
 div p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #c9c9b6;
 }
 
 div.main {
-    margin: 12.5% auto;
-    width: 75%;
-    border: 2px solid #c9c9b6;
-    padding: 1rem;
+    margin: 1rem auto;
 }
 
 div.main p {
-    font-size: 4rem;
-    margin: 0.5rem auto;
+    font-size: 2.4rem;
 }
 
-
-@media screen and (max-width: 600px) {
-    div h2{
-        font-size: 0.5rem;
+@media screen and (min-width: 601px) {
+    div {
+        width: 75%;
+        margin: 20rem auto;
     }
 
-    div p{
-        font-size: 1rem;
+    div h2 {
+        font-size: 3rem;
     }
 
-    div p h2{
-        font-size: 1.8rem;
+    div p {
+        font-size: 1.5rem;
     }
 
-    div.main p{
-        font-size: 2.4rem;
+    div.main {
+        margin: 12.5% auto;
+    }
+
+    div.main p {
+        font-size: 4rem;
+        margin: 0.5rem auto;
     }
 }
