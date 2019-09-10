@@ -1,11 +1,33 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1d263b;
+}
+
+.highlight {
+    color: #008f11;
+}
+
 div {
-    border: 2px solid black;
+    border: 2px solid #c9c9b6;
+    padding: 1rem;
+    width: 75%;
+    margin: 20rem auto;
+}
+
+div h2 {
+    font-size: 3rem;
+    color: #c9c9b6;
+}
+
+div p {
+    font-size: 1.5rem;
+    color: #c9c9b6;
 }
 
 div.main {
     margin: 12.5% auto;
-    width: 50%;
-    border: 2px solid black;
+    width: 75%;
+    border: 2px solid #c9c9b6;
     padding: 1rem;
 }
 
@@ -15,6 +37,8 @@ div.main p {
 }
 
 div.about {
-    width: 75%;
-    margin: 20rem auto;
+}
+
+div.about h2 {
+    font-size: 3rem;
 }
