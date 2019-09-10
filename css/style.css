@@ -36,9 +36,21 @@ div.main p {
     margin: 0.5rem auto;
 }
 
-div.about {
-}
 
-div.about h2 {
-    font-size: 3rem;
+@media screen and (max-width: 600px) {
+    div h2{
+        font-size: 0.5rem;
+    }
+
+    div p{
+        font-size: 1rem;
+    }
+
+    div p h2{
+        font-size: 1.8rem;
+    }
+
+    div.main p{
+        font-size: 2.4rem;
+    }
 }
