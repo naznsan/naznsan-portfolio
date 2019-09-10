@@ -1,0 +1,20 @@
+div {
+    border: 2px solid black;
+}
+
+div.main {
+    margin: 12.5% auto;
+    width: 50%;
+    border: 2px solid black;
+    padding: 1rem;
+}
+
+div.main p {
+    font-size: 4rem;
+    margin: 0.5rem auto;
+}
+
+div.about {
+    width: 75%;
+    margin: 20rem auto;
+}
