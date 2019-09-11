@@ -1,7 +1,7 @@
 // Typing effect for intro words on terminal
 // typed.js library used from https://github.com/mattboldt/typed.js
 var options = {
-    strings: ["Programmer", "Thinker", "Learner"],
+    stringsElement: '#typed-strings',
     typeSpeed: 50,
     loop: true,
     cursorChar: '_'
