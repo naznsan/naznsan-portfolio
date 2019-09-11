@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #1d263b;
+    margin: 0 
 }
 
 .highlight {
@@ -12,6 +13,7 @@ div {
     padding: 1rem;
     width: 85%;
     margin: 5rem auto;
+    background-color: #1d263b;
 }
 
 div h2 {
