@@ -34,6 +34,28 @@ div.main p {
     font-size: 2.4rem;
 }
 
+div.scroll {
+    background: none;
+    border: none;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    width: 75%;
+    margin: 0 12.5%;
+    text-align: center;
+    padding: 0;
+    opacity: 0.5;
+}
+
+div.scroll p {
+    margin: 0 auto;
+    margin-bottom: 0.2rem;
+}
+
+div.scroll img {
+    width: 10%;
+}
+
 @media screen and (min-width: 601px) {
     div {
         width: 75%;
@@ -55,5 +77,19 @@ div.main p {
     div.main p {
         font-size: 4rem;
         margin: 0.5rem auto;
+    }
+
+    div.scroll {
+        margin-top: 0;
+        position: fixed;
+        top: 85%;
+    }
+
+    div.scroll p {
+        font-size: 1rem;
+    }
+
+    div.scroll img {
+        width: 1.5%;
     }
 }
