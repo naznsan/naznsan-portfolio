@@ -1,6 +1,12 @@
 $(document).ready(function() {
+    // Hide "Scroll for more" when not on top of page
     $(document).scroll(function() {
-        $(".scroll").fadeOut(500);
+        if($(document).scrollTop() > 20) {
+            $(".scroll").fadeOut(100);
+        } else {
+            $(".scroll").fadeIn(500);
+        }
+
     })
 
     // Typing effect for intro words on terminal
